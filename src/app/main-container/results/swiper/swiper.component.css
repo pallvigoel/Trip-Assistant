@@ -1,0 +1,51 @@
+.swiper {
+    margin:0px;
+    padding-bottom: 2rem;
+}
+
+.arrows {
+    cursor: pointer;
+    background-color:#ffffff;
+    opacity: 0.95;
+    padding: 1rem 0rem;
+}
+
+.arrows:hover {
+    transform: scale(1.05);
+}
+
+.items {
+    cursor: pointer;
+    display: table;
+    width: 30rem;
+    height: 25vh;
+    text-align: center;
+    padding: 0;
+    border-radius: 2rem 2rem 0 0;
+    margin: 0 .5rem;
+}
+
+.items>img {
+    width: 30rem; 
+    height: 30vh;
+}
+
+.item-img {
+    border-radius: 2rem 2rem 0 0;
+}
+
+.item-title {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 16px #FFFFFF;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
+}
+
+.item-rating {
+    text-align: left;
+}
